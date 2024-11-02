@@ -1,0 +1,38 @@
+.plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 12px;
+    background: #0A191C;
+    color: #fff;
+    font-size: 16px;
+}
+
+.side-nav-tool {
+    background: #0A191C;
+    display: flex;
+    flex-direction: column;
+    width: 48px;
+    border-radius: 12px;
+    color: #3A5354;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 12px;
+    color: #3A5354;
+    font-size: 16px;
+}
+
+.tools.active {
+    border-radius: 12px;
+    background: rgba(80, 210, 193, 0.10);
+    backdrop-filter: blur(57.5px);
+    color: #50D2C1;
+}
