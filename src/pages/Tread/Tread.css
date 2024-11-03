@@ -89,12 +89,49 @@
     align-items: center;
     font-size: 18px;
 }
-.order-btn-act{
+
+.order-btn-act {
     background: linear-gradient(120deg, #071519, #246650);
     border: 1px solid #24665F;
     color: #F4FFFF;
 }
-.order-book table, .order-book tr, .order-book td{
+
+.order-book table,
+.order-book tr,
+.order-book td {
     border-collapse: collapse;
+    border: none;
+}
+
+
+/* balance table style  */
+.blnc-table {
+    border-radius: 24px;
+    border: 1px solid #293336;
+    background: linear-gradient(180deg, rgba(41, 50, 53, 0.10) 0%, rgba(41, 50, 53, 0.09) 100%);
+    backdrop-filter: blur(7.5px);
+}
+
+.blnce-tab-items {
+    border-bottom: 1px solid #293336;
+    padding: 10px 0 0;
+}
+
+.blnce-tab {
+    color: #537374;
+    font-size: 18px;
+    padding: 10px 16px;
+    transition: 0.1s;
+}
+.blnce-tab-active{
+    border-bottom: 1px solid #50D2C1;
+    color: #F4FFFF;
+}
+
+.bln-table{
+    color: #3A5354;
+    font-size: 14px;
+}
+.bln-table table, .bln-table tr, .bln-table td{
     border: none;
 }

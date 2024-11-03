@@ -92,7 +92,7 @@ const Header = () => {
                     }
                 </button>
 
-                <div className={`toggle-content duration-300 z-50  p-4 ${openNav ? 'opacity-100 right-0' : 'opacity-0 -right-[100%]'}`}>
+                <div className={`toggle-content duration-300 z-50  p-4 ${openNav ? 'opacity-100 right-0 ' : 'opacity-0 -right-[100%]'}`}>
                     <ul className=''>
                         <li>
                             <NavLink to={'/dashboard/trade'}>

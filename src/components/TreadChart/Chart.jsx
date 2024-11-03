@@ -44,7 +44,7 @@ const Chart = () => {
                     </button>
                 </div>
 
-                <div className="flex items-center gap-3">
+                <div className="flex flex-wrap items-center gap-3">
                     <button className="flex items-center gap-1 chart-like-btn">
                         <p>5m</p>
                     </button>
