@@ -1,4 +1,5 @@
 import BalanceTable from "../../components/BalanceTable/BalanceTable";
+import Market from "../../components/Market/Market";
 import OrderBook from "../../components/OrderBook/OrderBook";
 import TreadChart from "../../components/TreadChart/TreadChart";
 import './Tread.css'
@@ -14,6 +15,8 @@ const Tread = () => {
             </div>
             <div className="w-full md:w-1/3">
                 <OrderBook></OrderBook>
+
+                <Market></Market>
             </div>
         </div>
     );
