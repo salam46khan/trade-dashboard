@@ -28,7 +28,7 @@
     gap: 5px;
     height: 48px;
     width: 48px;
-    border: 0.2px solid;
+    border: 0.2px solid #3A535440;
     transition: all ease 0.5s;
     border-radius: 12px;
     background: #0A191C;

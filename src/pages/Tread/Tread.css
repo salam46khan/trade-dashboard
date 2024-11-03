@@ -56,7 +56,7 @@
 .chart-like-btn.active {
     border-radius: 10px;
     border: 1px solid #24665F;
-    background: linear-gradient(#24665f00, #2b81784d );
+    background: linear-gradient(#24665f00, #2b81784d);
     backdrop-filter: blur(22px);
     color: #F4FFFF;
 }
@@ -65,4 +65,36 @@
     padding: 0.5px;
     height: 48px;
     background: linear-gradient(transparent, #ffffff86, transparent);
+}
+
+
+
+
+/* order book style */
+.order-book {
+    border-radius: 24px;
+    border: 1px solid #293336;
+    background: linear-gradient(180deg, rgba(41, 50, 53, 0.10) 0%, rgba(41, 50, 53, 0.09) 100%);
+    backdrop-filter: blur(7.5px);
+    padding: 15px;
+}
+
+.order-btn {
+    color: #537374;
+    border: 0.5px solid #53737420;
+    border-radius: 12px;
+    display: flex;
+    padding: 12px 0px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.order-btn-act{
+    background: linear-gradient(120deg, #071519, #246650);
+    border: 1px solid #24665F;
+    color: #F4FFFF;
+}
+.order-book table, .order-book tr, .order-book td{
+    border-collapse: collapse;
+    border: none;
 }
